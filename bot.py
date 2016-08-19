@@ -29,9 +29,9 @@ def onhelp(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text='''
 Type "@artoobot <message>" to get inline voice.
 Commands:
-/help Show this help message.
-/say <message> Reply with a translated message (use to get voice next to \
-original text.)
+/help - Show this help message
+/say <message> - Reply with a translated message (use to get voice next to \
+original text)
 
 Messages downloaded with the download button are saved to your downloads \
 folder! Make sure to clear them if used and to use `voice' messages whenever \
