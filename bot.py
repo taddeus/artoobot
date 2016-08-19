@@ -32,6 +32,10 @@ Commands:
 /help Show this help message.
 /say <message> Reply with a translated message (use to get voice next to \
 original text.)
+
+Messages downloaded with the download button are saved to your downloads \
+folder! Make sure to clear them if used and to use `voice' messages whenever \
+possible.
 '''.strip())
 
 
