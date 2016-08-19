@@ -74,8 +74,7 @@ def oninline(bot, update):
         return
     url = get_audio_url(q)
     results = [
-        InlineQueryResultAudio(id='audio_%s' % q, audio_url=url,
-                               title='Audio (download button, shows text)'),
+        InlineQueryResultAudio(id='audio_%s' % q, audio_url=url, title=q),
         InlineQueryResultVoice(id='voice_%s' % q, voice_url=url,
                                title='Voice (play button, no text)')
     ]
