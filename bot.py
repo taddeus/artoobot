@@ -65,7 +65,7 @@ def onmessage(bot, update, reply=False):
 def oninline(bot, update):
     q = update.inline_query.query
     logger.info('inline query from %s: %s' %
-                update.message.from_user.first_name, q)
+                (update.inline_query.from_user.first_name, q))
     if not q:
         return
     url = get_audio_url(q)
